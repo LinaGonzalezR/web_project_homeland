@@ -3,15 +3,3 @@
   font-family: "Inter";
   font-weight: normal;
 }
-
-@font-face {
-  src: url(./fonts/InterVariable-Italic.ttf) format("truetype");
-  font-family: "InterVariable-Italic";
-  font-weight: italic;
-}
-
-@font-face {
-  src: url(./fonts/InterVariable.ttf) format("truetypeCollection");
-  font-family: "InterVariable";
-  font-weight: normal;
-}
