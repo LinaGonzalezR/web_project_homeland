@@ -2,7 +2,7 @@
   width: 830px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
 }
 
 .intro__title {
@@ -12,7 +12,6 @@
   font-weight: 900;
   line-height: 58px;
   margin-top: 92px;
-  align-items: flex-start;
 }
 
 .intro__text {
@@ -42,7 +41,7 @@
   width: 722px;
 }
 
-@media screen and (max-width: 1280px) and (min-width: 768px) {
+@media screen and (max-width: 1279px) and (min-width: 768px) {
   .intro {
     width: 100%;
   }
@@ -57,7 +56,7 @@
   .intro {
     width: 288px;
   }
-  intro__title {
+  .intro__title {
     font-size: 32px;
     line-height: 35px;
   }

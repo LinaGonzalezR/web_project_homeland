@@ -1,5 +1,18 @@
 .content {
   display: flex;
   flex-direction: column;
-  text-align: start;
+
+  margin-left: 148px;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .content {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    margin-left: 16px;
+  }
 }
