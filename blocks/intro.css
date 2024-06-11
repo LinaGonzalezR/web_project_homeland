@@ -2,7 +2,7 @@
   width: 830px;
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  /*justify-content: left;*/
 }
 
 .intro__title {
@@ -54,7 +54,7 @@
 
 @media screen and (max-width: 767px) {
   .intro {
-    width: 288px;
+    width: 100%;
   }
   .intro__title {
     font-size: 32px;
@@ -66,6 +66,6 @@
     line-height: 30px;
   }
   .intro__text_small {
-    width: 288px;
+    width: 100%;
   }
 }
