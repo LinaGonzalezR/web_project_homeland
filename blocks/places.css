@@ -1,0 +1,24 @@
+.places {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  /*width: 987px;*/
+  /*margin-left: 148px;
+  margin-right: 145px;*/
+}
+
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .place {
+    width: 720px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .place {
+    width: 320px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
