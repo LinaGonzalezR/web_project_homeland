@@ -71,6 +71,7 @@
   color: white;
   text-decoration: none;
   text-align: center;
+  align-content: center;
   border-radius: 4px;
 }
 
@@ -100,12 +101,6 @@
 
   .place__image {
     width: 340px;
-  }
-
-  .paragraph {
-    font-size: 16px;
-    line-height: 26.08px;
-    margin-top: 0;
   }
 }
 
