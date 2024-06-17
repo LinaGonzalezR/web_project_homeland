@@ -123,6 +123,7 @@
 
   .place__image {
     width: 288px;
+    box-shadow: none;
   }
 
   .place__button {
