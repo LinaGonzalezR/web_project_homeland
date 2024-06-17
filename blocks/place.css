@@ -57,7 +57,7 @@
   grid-area: button;
   width: 289px;
   height: 48px;
-  background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
   border: #0278fe;
   color: white;
   text-decoration: none;
