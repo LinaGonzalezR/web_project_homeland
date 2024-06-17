@@ -42,7 +42,9 @@
 .place__image {
   grid-area: image;
   width: 460px;
-  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.5);
+  /*box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.5);*/
+
+  box-shadow: 10px 10px 25px 0px #00000080;
 }
 
 .place__image:hover {
@@ -68,6 +70,11 @@
 
 .place__button:hover {
   opacity: 0.75;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
 }
 
 @media screen and (max-width: 1279px) and (min-width: 768px) {
