@@ -65,6 +65,10 @@
   align-content: center;
   border-radius: 4px;
   box-shadow: 5px 5px 10px #00000040;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
 }
 
 .place__button:hover {
@@ -128,5 +132,7 @@
   .place__button {
     grid-area: button;
     width: 288px;
+    font-size: 14px;
+    line-height: 16.94px;
   }
 }
